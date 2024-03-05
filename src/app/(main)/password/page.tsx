@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react";
 import { generate } from "generate-password";
+import { Title } from "@/components";
 
 export default function PasswordGenaratePage() {
   const [password, setPassword] = useState('Genera tu password!!');
@@ -66,11 +67,7 @@ export default function PasswordGenaratePage() {
 
   return (
     <div className="m-6 p-6 bg-secondaryBgColorLight dark:bg-secondaryBgColorDark rounded-md flex flex-col justify-center items-center">
-      <div className="text-center mb-6">
-        <h1 className="font-bold text-3xl text-violet-500 dark:text-yellow-200">
-          Generador de Password
-        </h1>
-      </div>
+      <Title title="Generador de contraseñas" />
 
       <div className="w-[70%]">
         <div className="flex items-center">
@@ -129,7 +126,6 @@ export default function PasswordGenaratePage() {
             )}
           </button>
         </div>
-
         {/* Opciones */}
         <div>
           <div className="mt-2 mb-3 flex flex-col items-start sm:items-center sm:flex-row">
