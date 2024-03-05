@@ -13,6 +13,26 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        // mainBgColorDark: '#010001',
+
+        secondaryBgColorDark: '#191A1D',
+        secondaryBgColorLight: '#F2F2F2',
+
+        inputBgColorDark: '#191919',
+
+        // tableBorderColorDark: '#232323',
+
+        // iconBgColorDark: '#3C3F46',
+
+        textHover: '#DE0404',
+
+        // iconTextColorDark: '#a0a0a0',
+
+        // // 
+        mainTextDark: '#ffffff',
+        secondTextDark: '#7f7f7f',
+      }
     },
   },
   plugins: [],
